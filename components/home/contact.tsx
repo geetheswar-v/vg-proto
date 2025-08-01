@@ -29,13 +29,6 @@ export default function Contact() {
       value: "github.com/geetheswar-v",
       link: "https://github.com/geetheswar-v",
       copyable: false
-    },
-    {
-      icon: MapPin,
-      title: "Location",
-      value: "Available for Remote Work",
-      link: null,
-      copyable: false
     }
   ];
 
