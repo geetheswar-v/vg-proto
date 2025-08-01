@@ -53,7 +53,7 @@ export const projects = [
   {
     title: "Hokomi: A anime/manga tracker",
     description: "A latest web application built on my interest in anime/manga. It is a tracking application using latest technologies for each system, like auth using next-auth, NeonDB, Prisma, ShadCN, etc.",
-    demo_link: "Coming Soon",
-    github_link: "Coming Soon",
+    demo_link: "https://hokomi.vercel.app/",
+    github_link: "https://github.com/geetheswar-v/hokomi",
   },
 ];

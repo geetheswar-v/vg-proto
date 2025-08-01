@@ -66,24 +66,16 @@ export default function Footer() {
             </nav>
           </div>
 
-          {/* Services */}
+          {/* Major Skills */}
           <div className="space-y-4">
-            <h4 className="font-semibold">Services</h4>
+            <h4 className="font-semibold">Major Skills</h4>
             <div className="space-y-2 text-sm text-muted-foreground">
               <div>Web Development</div>
               <div>AI Integration</div>
               <div>Full Stack Solutions</div>
-              <div>Technical Consulting</div>
               <div>API Development</div>
             </div>
           </div>
-        </div>
-
-        {/* Copyright */}
-        <div className="border-t border-border py-6 text-center">
-          <p className="text-sm text-muted-foreground">
-            © {currentYear} {name}. All rights reserved.
-          </p>
         </div>
 
       </div>

@@ -2,7 +2,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, MapPin, Github, Linkedin, ExternalLink, Copy } from "lucide-react";
+import { Mail, Github, Linkedin, ExternalLink, Copy } from "lucide-react";
 import { useState } from "react";
 
 export default function Contact() {
@@ -102,26 +102,7 @@ export default function Contact() {
           })}
         </div>
 
-        {/* Quick Response Info */}
-        <Card className="mb-12">
-          <CardContent className="p-8 text-center">
-            <h3 className="text-xl font-semibold mb-4">Quick Response Promise</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <div className="space-y-2">
-                <div className="text-2xl font-bold text-primary">24h</div>
-                <div className="text-sm text-muted-foreground">Average Response Time</div>
-              </div>
-              <div className="space-y-2">
-                <div className="text-2xl font-bold text-primary">100%</div>
-                <div className="text-sm text-muted-foreground">Response Rate</div>
-              </div>
-              <div className="space-y-2">
-                <div className="text-2xl font-bold text-primary">Remote</div>
-                <div className="text-sm text-muted-foreground">Work Available</div>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+        
 
         {/* Call to Action */}
         <div className="text-center">
